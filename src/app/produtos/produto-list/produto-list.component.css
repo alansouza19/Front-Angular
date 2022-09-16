@@ -1,0 +1,27 @@
+
+table {
+  width: 100%;
+  margin-right: 50%;
+
+}
+
+.mat-column-nome {
+  width: 25%;
+  text-align-last: center;
+}
+
+.mat-column-valor {
+  width: 25%;
+  text-align-last: center;
+
+}
+
+.mat-column-fornecedor {
+  width: 25%;
+  text-align-last: center;
+}
+
+.mat-column-acoes {
+  width: 25%;
+  text-align-last: center;
+}

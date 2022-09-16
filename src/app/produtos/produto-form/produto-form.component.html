@@ -1,0 +1,15 @@
+<section id="form">
+    <form (ngSubmit)="onSubmit()" #formProduto="ngForm">
+        <div class="form-group">
+            <label>Nome</label>
+            <input class="form-control" type="text" name="nome" [(ngModel)]="produto.nome" required />
+            <label>Fornecedor</label>
+            <input class="form-control" type="text" name="fornecedor" [(ngModel)]="produto.fornecedor" required />
+            <label>Valor</label>
+            <input class="form-control" type="text" name="valor" [(ngModel)]="produto.valor" required />
+          </div>
+
+        <button type="submit" class="btn btn-primary mr-2">Cadastrar</button>
+        <button type="button" class="btn btn-secondary" [routerLink]="['']">Cancelar</button>
+    </form>
+</section>
